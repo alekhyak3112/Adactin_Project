@@ -15,6 +15,8 @@ import Org.Global.SeleniumBase;
 		public static void main(String[] args) throws InterruptedException {
 			
 			SeleniumBase seleniumBase = new SeleniumBase();
+			
+			System.out.println("hey");
 						
 			getBrowser("Firefox");
 			seleniumBase.getApplication("https://adactinhotelapp.com/index.php");
